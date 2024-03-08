@@ -6,4 +6,4 @@
 
 library;
 
-export 'src/gg_is_github.dart';
+export 'src/is_github.dart';

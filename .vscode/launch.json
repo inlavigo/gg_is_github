@@ -9,8 +9,8 @@
       "name": "gg_is_github.dart",
       "type": "dart",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/gg_is_github.dart",
-      "args": ["--param", "value"],
+      "program": "${workspaceFolder}/example/gg_is_github_example.dart",
+      "args": [],
       "console": "debugConsole"
     },
     {
