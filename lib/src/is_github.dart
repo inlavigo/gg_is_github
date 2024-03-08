@@ -7,9 +7,13 @@
 import 'dart:io';
 
 /// Returns true if the environment variable 'GITHUB_ACTIONS' is set.
-bool get isGitHub =>
-    (testIsGitHub ?? false) ||
-    Platform.environment.containsKey('GITHUB_ACTIONS');
+bool get isGitHub {
+  if (testIsGitHub != null) {
+    return testIsGitHub!;
+  }
+
+  return Platform.environment.containsKey('GITHUB_ACTIONS');
+}
 
 /// Use this to override isGitHub in tests. Don't forget to reset
 bool? testIsGitHub;
