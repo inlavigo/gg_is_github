@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.6] - 2024-05-11
+
+### Removed
+
+- Remove unnecessaray dependencies
+
 ## [1.0.5] - 2024-04-13
 
 ### Removed
@@ -28,6 +34,7 @@
 - 'Github Actions Pipeline: Add SDK file containing flutter into .github/workflows to make github installing flutter and not dart SDK'
 - Prepare publish
 
+[1.0.6]: https://github.com/inlavigo/gg_is_github/compare/1.0.5...1.0.6
 [1.0.5]: https://github.com/inlavigo/gg_is_github/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/inlavigo/gg_is_github/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/inlavigo/gg_is_github/compare/1.0.2...1.0.3
